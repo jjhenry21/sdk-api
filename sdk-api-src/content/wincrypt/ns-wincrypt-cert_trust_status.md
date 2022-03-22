@@ -62,7 +62,6 @@ The <b>CERT_TRUST_STATUS</b> structure contains trust information about a certif
 
 dwErrorStatus is a bitmask of the following error codes defined for certificates and chains.
 
-
 <table>
 <tr>
 <th>Value</th>
