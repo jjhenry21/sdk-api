@@ -63,11 +63,6 @@ The <b>CERT_TRUST_STATUS</b> structure contains trust information about a certif
 dwErrorStatus is a bitmask of the following error codes defined for certificates and chains.
 
 
-
-
-						
-					
-
 <table>
 <tr>
 <th>Value</th>
@@ -317,11 +312,7 @@ The certificate has not been strong signed. Typically this indicates that the MD
 </tr>
 </table>
  
-
-
 The following codes are defined for chains only.
-
-
 
 <table>
 <tr>
@@ -377,8 +368,6 @@ A CTL used to create this chain is not valid for this usage.
 ### -field dwInfoStatus
 
 The following information status codes are defined.
-
-
 
 <table>
 <tr>
@@ -533,10 +522,6 @@ If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
-
-
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
-
-
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>
